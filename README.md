@@ -20,18 +20,13 @@ TACC LS6 User Guide: https://docs.tacc.utexas.edu/hpc/lonestar6/
 git clone https://github.com/yuho-yuho/gitm_default.git
 ```
 
-You can change your GITM name to whatever you want.
-
-
-2\. Go into the repo directory
+2\. Go into the repo directory (You can change your GITM name to whatever you want)
 
 ```shell
 cd gitm_default
 ```
 
-By default, you can use the ifort compiler
-
-3\. Configure the Fortran compiler (version 10)
+3\. Configure the Fortran compiler with ifort (By default)
 
 ```shell
 ./Config.pl -install -compiler=ifortmpif90 -earth
