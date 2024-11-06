@@ -44,7 +44,7 @@ gmake
 make rundir
 ```
 
-6\. Apply idev with 4 nodes & 144 mpi)
+6\. Apply idev with 4 nodes & 144 mpi tasks
 
 ```shell
 cd run
