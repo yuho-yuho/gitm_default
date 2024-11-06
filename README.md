@@ -14,16 +14,19 @@ TACC LS6 User Guide: https://docs.tacc.utexas.edu/hpc/lonestar6/
 
 ## Quick Start:
 
-1\. Clone the repository and cd into the repo folder
+1\. Clone the repository on your TACC Home directory
 
 ```shell
 git clone https://github.com/yuho-yuho/gitm_default.git
 ```
 
+You can change your GITM name to whatever you want.
+
+
 2\. Go into the repo directory
 
 ```shell
-cd GITM
+cd gitm_default
 ```
 
 3\. Configure the Fortran compiler (version 10)
