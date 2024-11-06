@@ -20,7 +20,7 @@ TACC LS6 User Guide: https://docs.tacc.utexas.edu/hpc/lonestar6/
 git clone https://github.com/yuho-yuho/gitm_default.git
 ```
 
-2\. Go into the repo directory (You can change your GITM name to whatever you want)
+2\. Go into the folder (You can change to whatever you want)
 
 ```shell
 cd gitm_default
