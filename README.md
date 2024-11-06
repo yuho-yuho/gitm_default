@@ -37,3 +37,9 @@ cd gitm_default
 ```shell
 gmake
 ```
+
+5\. Create your run directory
+
+```shell
+make rundir
+```
