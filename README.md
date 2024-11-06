@@ -51,7 +51,7 @@ cd run
 idev -m 10 -N 4 -n 144
 ```
 
-7\. Run your GITM on idev 
+7\. Run your GITM on idev (I use ibrun instead of mpirun)
 
 ```shell
 ibrun ./GITM.exe
