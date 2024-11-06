@@ -43,3 +43,28 @@ gmake
 ```shell
 make rundir
 ```
+
+5\. Run your GITM on idev (try 4 nodes & 144 mpi)
+
+```shell
+cd run
+idev -m 10 -N 4 -n 144
+ibrun ./GITM.exe
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
