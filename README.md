@@ -29,8 +29,10 @@ You can change your GITM name to whatever you want.
 cd gitm_default
 ```
 
+By default, you can use the ifort compiler
+
 3\. Configure the Fortran compiler (version 10)
 
 ```shell
-./Config.pl -install -earth -compiler=gfortran10
+./Config.pl -install -compiler=ifortmpif90 -earth
 ```
