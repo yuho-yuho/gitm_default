@@ -17,7 +17,7 @@ TACC LS6 User Guide: https://docs.tacc.utexas.edu/hpc/lonestar6/
 1\. Clone the repository and cd into the repo folder
 
 ```shell
-git clone https://github.com/GITMCode/GITM
+git clone https://github.com/yuho-yuho/gitm_default.git
 ```
 
 2\. Go into the repo directory
