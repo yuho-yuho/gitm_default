@@ -1,6 +1,10 @@
 #!/usr/bin/perl -i
 use strict;
 
+use Cwd qw( abs_path );
+use File::Basename qw( dirname );
+use lib dirname(abs_path($0));
+
 our $Component       = 'UA';
 our $Code            = 'GITM2';
 our $MakefileDefOrig = 'srcMake/Makefile.def';

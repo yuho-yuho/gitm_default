@@ -63,7 +63,7 @@ while(<>){
     }
 
     # Get the name of the module
-    $module = $1 if ?^\s*module\s+(\w+)?i;
+    $module = $1 if /^\s*module\s+(\w+)/i;
 
     # Edit the logical IsDynamic* variable/parameter to .true.:
     s/\.false\./\.true\./i if /^\s*logical\b/i and /\bIsDynamic\w*\s*=/i;
