@@ -31,3 +31,9 @@ cd gitm_default
 ```shell
 ./Config.pl -install -compiler=ifortmpif90 -earth
 ```
+
+4\. Compile your GITM codes
+
+```shell
+gmake
+```
