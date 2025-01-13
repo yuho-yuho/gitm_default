@@ -57,6 +57,21 @@ idev -m 10 -N 4 -n 144
 ibrun ./GITM.exe
 ```
 
+7\. Add these to .bashrc to run IDL everywhere
+
+```shell
+module load idl
+export IDL_PATH='/scratch/tacc/apps/idl/8.4.0/idl/lib'
+for d in $(find $IDL_PATH -type d); do
+    IDL_PATH="$IDL_PATH:$d"
+done
+
+export IDL_PATH="$IDL_PATH:/home1/06793/hongyu_5/IDL_lib/srcIDL/"
+export IDL_PATH="$IDL_PATH:/home1/06793/hongyu_5/IDL_lib/IDL_GITM/"
+export IDL_STARTUP="/home1/06793/hongyu_5/IDL_lib/srcIDL/startup"
+```
+
+
 
 
 
