@@ -1,7 +1,7 @@
 # gitm_default
 Default version of the Global Ionosphere/Thermosphere Model used by the Upper Atmosphere Group at University of Texas at Arlington.
 
-GITM has been developed in Fortran-90. Original code and copyright by University of Michigan. Please refer to the paper by Ridley, Deng & Tóth (2006) at https://doi.org/10.1016/j.jastp.2006.01.008. 
+GITM has been developed in Fortran-90. Original code and copyright by University of Michigan. Please refer to the paper by Ridley, Deng & Tóth (2006) at https://doi.org/10.1016/j.jastp.2006.01.008 and the GITM user manual at https://drive.google.com/file/d/14eLZuaxlNwpKO4sl0Ig7FmygDQa83Cvf/view?usp=sharing
 
 Other useful links:
 
