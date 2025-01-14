@@ -11,6 +11,9 @@ TACC LS6 User Guide: https://docs.tacc.utexas.edu/hpc/lonestar6/
 
 1. GITM runs on TACC machine. 
 2. GITM needs MPI to work.
+3. Choose one editor: EMACS vs VIM
+4. Two ways to run GITM: bash job vs idev
+5. What is Makefile
 
 ## Quick Start:
 
