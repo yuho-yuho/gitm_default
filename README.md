@@ -39,6 +39,20 @@ cd gitm_default
 
 ```shell
 gmake
+cd src
+```
+
+Open the ModSize.f90 file and modify the 'nLons' and 'nlats' from x to 12:
+
+```shell
+integer, parameter :: nLons = 12
+integer, parameter :: nLats = 12
+```
+
+Then return to the previous directory:
+
+```shell
+cd ..
 ```
 
 5\. Create your run directory
