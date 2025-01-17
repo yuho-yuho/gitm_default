@@ -54,6 +54,14 @@ cd run
 idev -m 10 -N 4 -n 144
 ```
 
+Open the UAM.in file and modify the 'lons' and 'lats' from 2 to 12:
+
+```shell
+#GRID
+12              lons
+12              lats
+```
+
 7\. Run your GITM on idev (I use ibrun instead of mpirun)
 
 ```shell
@@ -73,6 +81,8 @@ export IDL_PATH="$IDL_PATH:/home1/06793/hongyu_5/IDL_lib/srcIDL/"
 export IDL_PATH="$IDL_PATH:/home1/06793/hongyu_5/IDL_lib/IDL_GITM/"
 export IDL_STARTUP="/home1/06793/hongyu_5/IDL_lib/srcIDL/startup"
 ```
+
+Please remember to modify the corresponding path, i.e., /home1/06793/hongyu_5/, with your own numbers and username.
 
 
 
