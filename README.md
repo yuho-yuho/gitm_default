@@ -12,7 +12,7 @@ TACC LS6 User Guide: https://docs.tacc.utexas.edu/hpc/lonestar6/
 1. GITM runs on TACC machine (you can use different shells, e.g., bash, csh. I use bash myself). 
 2. GITM needs MPI to work.
 3. Choose one editor: emacs vs vim
-4. Two ways to run GITM: bash job vs idev
+4. Two ways to run GITM: batch job vs idev
 5. What is Makefile and how it works?
 
 ## Quick Start:
